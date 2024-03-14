@@ -1,6 +1,32 @@
-span {
-    display: block;
-    border-top: 1px solid black;
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.header-container {
+    background-color: black;
+    color: white;
+    height: 50px;
+    align-items: center;
+    
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 50px;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 20px;
+}
+
+nav ul li {
+    list-style-type: none;
 }
 
 img {
